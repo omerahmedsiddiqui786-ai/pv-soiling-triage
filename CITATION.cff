@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "PV Soiling Triage: A No-Dedicated-Hardware Prototype for Photovoltaic Panel Cleaning Recommendations"
+authors:
+  - family-names: "Siddiqui"
+    given-names: "Omer Ahmed"
+repository-code: "https://github.com/omerahmedsiddiqui786-ai/pv-soiling-triage"
+license: MIT
+version: "0.1.0"
+date-released: "2026-10-01"
+type: software
+keywords:
+  - photovoltaic
+  - solar panel soiling
+  - computer vision
+  - image classification
+  - renewable energy

@@ -1,0 +1,7 @@
+ultralytics>=8.0
+numpy
+pandas
+pillow
+requests
+python-dotenv
+jupyter

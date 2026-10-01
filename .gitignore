@@ -1,0 +1,29 @@
+# Python environment — never commit, 27k+ files, already caused one
+# oversized-commit incident with the dataset zip; don't repeat it with this.
+pv-env/
+
+# Dataset and model weights
+data/
+*.pt
+solar-panel-dust-detection.zip
+models/
+
+# Raw field photographs — real customers' property, sometimes with
+# camera-burned GPS/device metadata. Only the aggregated results CSV
+# (field_validation_results.csv) is tracked, never the source images.
+field_photos/
+Field_Photos/
+Field Photos/
+
+# Generic archives — catches accidental zip uploads before they're committed
+*.zip
+
+# Local-only project docs — brief, session logs, internal notes
+docs/
+
+# Standard environment / editor / OS noise
+.env
+__pycache__/
+.ipynb_checkpoints/
+Thumbs.db
+.DS_Store
